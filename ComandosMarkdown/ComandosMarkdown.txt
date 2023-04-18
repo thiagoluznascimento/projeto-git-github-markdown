@@ -1,0 +1,43 @@
+
+1 - Importar as bibliotecas necessárias em Python, como requests e hashlib;
+2 - Receber a data de publicação fornecida como argumento de linha de comando, usando o módulo sys;
+3 - Criar uma URL com a data fornecida para acessar a página correspondente no site do Supremo Tribunal Federal (STF);
+4 - Enviar uma solicitação HTTP GET para a URL usando a biblioteca requests;
+5 - Analisar o HTML da página usando a biblioteca BeautifulSoup para encontrar o link para o PDF Integral;
+6 - Enviar uma solicitação HTTP GET para o link do PDF Integral;
+7 - Calcular o hash MD5 do conteúdo do PDF usando a biblioteca hashlib;
+8 - Retornar o hash MD5 calculado.
+
+TEM TUDO AQUI 
+https://www.markdownguide.org/basic-syntax
+
+
+
+
+Para usar o Markdown
+
+ctrl+shift+p = Markdown preview 
+quebra de linha é só dar dois espaços.
+# titulo
+## subtitulo 
+### subtitulo
+**Negrito**
+_Italico_
+
+ para adicionar um link
+ [Nome do site](link do site) 
+
+1. Item
+1. Item qualquer
+1. Item outro
+
+- Item (aparece o pontinho)
+    - Interno
+- Item 1
+
+para colocar um bloco de codigo usamos , podemos colocar o nome da linguagem na frente.
+```python
+if __name__ == "__main__":
+    main()
+
+```
